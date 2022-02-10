@@ -43,7 +43,7 @@
                     </li>
                 </ul>
                 <div class="d-flex">
-                    <a href="#" class="btn btn-master btn-secondary me-3">
+                    <a href="{{ route('login') }}" class="btn btn-master btn-secondary me-3">
                         Sign In
                     </a>
                     <a href="#" class="btn btn-master btn-primary">
@@ -83,11 +83,11 @@
                     </div>
                 </div>
             </div>
-            <div class="row brands">
+            {{-- <div class="row brands">
                 <div class="col-lg-12 col-12 text-center">
                     <img src="/assets/images/brands.png" alt="">
                 </div>
-            </div>
+            </div> --}}
         </div>
     </section>
 
@@ -177,6 +177,7 @@
                 </div>
             </div>
             <div class="row item-step pb-70">
+                
                 <div class="col-lg-6 col-12 text-left copywriting pl-150">
                     <p class="story">
                         STUDY HARDER
