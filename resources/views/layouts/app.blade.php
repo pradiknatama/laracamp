@@ -23,7 +23,7 @@
         @else
             @include('includes.navbar_auth')
     @endguest
-    
+    {{-- @include('layouts.navigation') --}}
 
     @yield('content')
 
