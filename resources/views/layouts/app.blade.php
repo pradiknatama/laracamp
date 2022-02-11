@@ -21,7 +21,7 @@
     @guest
             @include('includes.navbar')
         @else
-            @include('includes.navbar-auth')
+            @include('includes.navbar_auth')
     @endguest
     
 
